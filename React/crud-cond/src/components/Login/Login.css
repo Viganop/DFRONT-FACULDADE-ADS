@@ -1,0 +1,34 @@
+.loginContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: var(--secondary-color);
+
+    border: 1px solid red;
+}
+
+.loginForm {
+    background: var(--secondary-color);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: var(--box-shadow);
+    width: 100%;
+    max-width: 400px; 
+    text-align: center;
+
+    & h2 {
+        margin-top: 0;
+        margin-bottom: 8px;
+        color: var(--primary-color);
+    }
+
+    & p {
+        margin-bottom: 32px;
+        color: #6c757d;
+    }
+
+    & button {
+        width: 100%;
+    }
+}

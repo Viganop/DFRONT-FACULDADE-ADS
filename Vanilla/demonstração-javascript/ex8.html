@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Juntar Textos</title>
+  <script>
+    function juntarTextos() {
+      // Pega os valores dos dois campos de texto
+      var texto1 = document.getElementById("campo1").value;
+      var texto2 = document.getElementById("campo2").value;
+
+      // Junta os textos
+      var resultado = texto1 + texto2;
+
+      // Mostra o resultado
+      document.getElementById("resultado").innerText = "Resultado: " + resultado;
+    }
+  </script>
+</head>
+<body>
+  <h2>Juntar Textos</h2>
+  <input type="text" id="campo1" placeholder="Texto 1">
+  <input type="text" id="campo2" placeholder="Texto 2">
+  <button onclick="juntarTextos()">Juntar</button>
+
+  <p id="resultado"></p>
+</body>
+</html>

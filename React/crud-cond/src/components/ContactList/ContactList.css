@@ -1,0 +1,68 @@
+.list-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #fff;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.contact-item:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--box-shadow);
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-name {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.contact-phone {
+  color: #6c757d;
+}
+
+.contact-actions button {
+  margin-left: 0.5rem;
+  padding: 8px 12px;
+  font-size: 0.9rem;
+}
+
+.edit-btn {
+  background-color: #ffc107;
+}
+.edit-btn:hover {
+  background-color: #e0a800;
+}
+
+.delete-btn {
+  background-color: var(--error-color);
+}
+.delete-btn:hover {
+  background-color: #c82333;
+}
+
+.no-contacts {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #6c757d;
+  margin-top: 2rem;
+}

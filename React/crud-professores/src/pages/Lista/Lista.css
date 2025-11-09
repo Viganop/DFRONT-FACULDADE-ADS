@@ -1,0 +1,106 @@
+.lista-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ffffffdd; 
+    border-radius: 15px; 
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15); 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.lista-title {
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    padding-bottom: 10px;
+}
+
+.no-data {
+    text-align: center;
+    color: #95a5a6;
+    font-style: italic;
+    padding: 20px;
+}
+
+.professores-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.professores-table th, 
+.professores-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ecf0f1;
+}
+
+.professores-table th {
+    background-color: #66a6ff; 
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+
+.professores-table tbody tr:nth-child(even) {
+    background-color: #f7f9fb;
+}
+
+
+.edit-input, .edit-select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    transition: 0.3s;
+    outline: none;
+}
+
+.edit-input:focus, .edit-select:focus {
+    border-color: #66a6ff;
+    box-shadow: 0 0 3px #66a6ff;
+}
+
+.actions-cell {
+    width: 170px; 
+}
+
+.edit-button, .delete-button, .save-button {
+    padding: 8px 10px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.3s;
+    min-width: 70px; 
+}
+
+.save-button {
+    background-color: #66a6ff; 
+    color: white;
+}
+.save-button:hover {
+    background-color: #89f7fe;
+    color: #333;
+}
+
+.edit-button {
+    background-color: #f39c12; 
+    color: white;
+}
+.edit-button:hover {
+    background-color: #d35400;
+}
+
+.delete-button {
+    background-color: #e74c3c; 
+    color: white;
+}
+.delete-button:hover {
+    background-color: #c0392b;
+}

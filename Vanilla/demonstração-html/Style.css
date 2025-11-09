@@ -1,0 +1,104 @@
+.ex1h1{
+    font-family:Arial;
+    Font-size:32;
+    font-weight:bold;
+    font-style:italic;
+}
+
+.ex1p1{
+    font-style:Verdana;
+    font-size:16;
+}
+/* ---------------------------------------- */
+
+#ex2p1{
+    text-transform:uppercase;
+    text-align:right;
+}
+
+#ex2p2{
+    text-align:center;
+    text-decoration:underline;
+}
+
+#ex2p3{
+    text-indent:20;
+}
+
+/* ---------------------------------------- */
+
+#ex3h1{
+    font-family:Georgia;
+    font-size:36;
+    font-weight:bold;
+    text-align:center;
+}
+
+#ex3h2{
+    font-family:Arial;
+    font-size:24;
+    font-style:italic;
+}
+
+.ex3p{
+    text-align:justify 1.5;
+}
+
+/* ---------------------------------------- */
+
+#ex4h2{
+    font-size:28; 
+    font-weight:bold;
+    text-align:center;
+}
+
+.ex4p2{
+    font-size:16;
+    font-style:italic;
+}
+
+#ex4p1{
+    font-size:10;
+    text-decoration:underline;
+}
+
+.cartao{
+    background-color: #ff9898;
+    padding:20;
+}
+
+/* ---------------------------------------- */
+
+#ex5p1{
+    color:#1900ff;
+    text-align:center;
+}
+
+.ex5p2{
+    color:crimson;
+    font-style:italic;
+}
+
+/* ---------------------------------------- */
+
+.itens{
+    font-family:Arial;
+    font-size:18;
+    
+}
+
+#link1{
+    color: chartreuse;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+#link2{
+    text-decoration:none;
+}
+
+#link3{
+    text-decoration:none;
+}
+
+/* ---------------------------------------- */

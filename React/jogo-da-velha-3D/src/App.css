@@ -1,0 +1,96 @@
+/* Reset básico e fonte */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9fafb;
+  color: #222;
+}
+
+/* Container dos tabuleiros - centralizado com espaçamento */
+.boards-container {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+  padding: 50px 20px;
+  flex-wrap: wrap; /* para empilhar no mobile */
+}
+
+/* Cada tabuleiro com sombra leve e cantos arredondados */
+.tabuleiro {
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+  width: 170px;
+  user-select: none;
+  transition: box-shadow 0.3s ease;
+}
+
+.tabuleiro:hover {
+  box-shadow: 0 14px 38px rgba(0,0,0,0.1);
+}
+
+/* Status do jogo - fonte fina e espaçamento */
+.status {
+  font-weight: 400;
+  font-size: 15px;
+  color: #555;
+  text-align: center;
+  margin-bottom: 20px;
+  letter-spacing: 0.03em;
+}
+
+/* Linhas do tabuleiro como flex rows */
+.board-row {
+  display: flex;
+  justify-content: center;
+}
+
+/* Cada casa com borda sutil e cantos arredondados */
+.square {
+  width: 48px;
+  height: 48px;
+  margin: 5px;
+  background-color: #f3f4f6;
+  border-radius: 8px;
+  border: 1.5px solid #d1d5db;
+  font-size: 26px;
+  font-weight: 600;
+  color: #111827;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition:
+    background-color 0.25s ease,
+    border-color 0.25s ease,
+    color 0.25s ease;
+}
+
+.square:hover {
+  background-color: #e5e7eb;
+  border-color: #9ca3af;
+  color: #1f2937;
+}
+
+/* Botão estilizado, com bordas arredondadas e efeito */
+button {
+  margin: 40px auto 0 auto;
+  padding: 12px 36px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  display: block;
+  box-shadow: 0 5px 15px rgba(37, 99, 235, 0.3);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+  background-color: #1e40af;
+  box-shadow: 0 7px 20px rgba(30, 64, 175, 0.4);
+}

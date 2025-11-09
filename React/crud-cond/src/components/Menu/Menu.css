@@ -1,0 +1,53 @@
+.menu {
+  width: 250px;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-title {
+  font-size: 1.8rem;
+  margin-top: 0;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.menu-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-list li {
+  margin-bottom: 1rem;
+}
+
+.menu-list a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  display: block;
+  padding: 10px 15px;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.menu-list a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Botão especial para 'Cadastrar' */
+.menu-button {
+  width: 100%;
+  background-color: var(--success-color);
+  text-align: left;
+  padding: 10px 15px;
+  font-weight: normal;
+}
+
+.menu-button:hover {
+  background-color: #218838;
+}
+

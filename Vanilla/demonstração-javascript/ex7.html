@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mostrar Hora Atual</title>
+</head>
+<body>
+    <button onclick="MostrarHora()">Mostrar Hora</button>
+    <p id="horaAtual"></p>
+
+    <script>
+        function mostrarHora(){
+            const texto = document.getElementById("textoDigitado").value;
+            const comprimento = texto.length;
+            document.getElementById("comprimentoTexto").textContent = "O texto digitado tem " + comprimento + "caracteres";
+            
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mostrar Hora Atual</title>
+</head>
+<body>
+    <button onclick="MostrarHora()">Mostrar Hora</button>
+    <p id="horaAtual"></p>
+
+    <script>
+        function mostrarHora(){
+            const agora = new Date();
+            const horaFormatada = agora.toLocaleTimeString();
+            document.getElementById("horaAtual").innerText = "Hora atual: " +horaFormatada;
+        }
+    </script>
+</body>
+</html>

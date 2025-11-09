@@ -1,0 +1,100 @@
+
+body {
+    font-family: sans-serif; /* Define a fonte padrão para o corpo */
+    display: flex; /* Habilita flexbox para alinhar o conteúdo */
+    flex-direction: column; /* Organiza os elementos em uma coluna */
+    align-items: center; /* Centraliza horizontalmente os itens */
+    margin: 20px; /* Adiciona uma margem ao redor do corpo */
+    background-color: rgba(136, 135, 135, 0.425);
+}
+
+/* Estilo para o título principal */
+.main-title {
+    margin-top: 90px;  /* Adiciona espaço acima do título */
+    margin-bottom: 35px; /* Adiciona espaço abaixo do título */
+    color: rgb(19, 83, 79);  /*Muda cor do texto */
+}
+
+/* Estilo para o contêiner da grade de contatos */
+.grid-container {
+    display: grid; /* Define o contêiner como uma grade */
+    grid-template-columns: repeat(3, 1fr); /* Cria 3 colunas com largura igual */
+    gap: 20px; /* Adiciona um espaçamento de 20px entre os itens da grade */
+}
+
+/* Estilo para cada cartão de contato */
+.contact-card {
+    background-color: #f0f0f0; /* Define a cor de fundo do cartão */
+    border-radius: 1px; /* Adiciona bordas arredondadas ao cartão */
+    overflow: hidden; /* Garante que o conteúdo não ultrapasse as bordas */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil ao cartão */
+    position: relative; /* Permite posicionamento relativo para elementos dentro */
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.146);
+    height: -50px;
+}
+
+/* Estilo para o contêiner da imagem do perfil */
+.contact-image-container {
+    width: 100%; /* Ocupa toda a largura do cartão */
+    height: 100px; /* Define uma altura para o contêiner da imagem */
+    display: flex; /* Habilita flexbox para centralizar a imagem */
+    justify-content: center; /* Centraliza horizontalmente a imagem */
+    align-items: center; /* Centraliza verticalmente a imagem */
+    background-image: url(imagens/thumb02.jpg); /* Cor de fundo padrão, pode ser substituída por uma imagem */
+    height:  160px;
+    background-position: center;
+    
+    /* É possível adicionar imagem dentro de Styles!!!! */
+    /* TUTORIAL!!! */
+    /* background-image: url('caminho/para/sua/imagem.jpg'); */
+    /* background-size: cover; */
+    /* background-position: center; */
+}
+
+/* Estilo para a imagem do perfil */
+.contact-profile-pic {
+    width: 70px; /* Define a largura da imagem */
+    height: 70px; /* Define a altura da imagem */
+    border-radius: 50%; /* Torna a imagem circular */
+    object-fit: cover; /* Garante que a imagem cubra o espaço sem distorcer */
+    
+    margin-top: 100px; /* Espaçamento das PFPs dos Contatos */
+    margin-top: 162px;
+}
+
+/* Estilo para a seção de detalhes do contato */
+.contact-details {
+    padding: 15px; /* Adiciona preenchimento interno */
+}
+
+/* Estilo para o nome do contato */
+.contact-name {
+    font-weight: bold; /* Deixa o texto em negrito */
+    margin-bottom: 5px; /* Adiciona espaço abaixo do nome */
+    text-align: center;
+    padding-top: 5px;
+    color: rgb(28, 86, 84);
+    font-size: large;
+}
+
+/* Estilo para o email do contato */
+.contact-email {
+    color: #666; /* Define a cor do texto do email */
+    text-align: center;
+    margin-bottom: -2px;
+}
+
+/* Estilo para a seção de ações (editar/deletar) */
+.contact-actions {
+    display: flex; /* Habilita flexbox para alinhar os ícones */
+    justify-content: space-around; /* Distribui o espaço entre os ícones */
+    padding: 10px; /* Adiciona preenchimento interno */
+    border-top: 1px solid #ddd; /* Adiciona uma borda superior */
+    background-color: #6666662b;
+}
+
+/* Estilo para as imagens de ação (editar/deletar) */
+.contact-actions img {
+    width: 20px; /* Define a largura dos ícones */
+    height: 20px; /* Define a altura dos ícones */
+}

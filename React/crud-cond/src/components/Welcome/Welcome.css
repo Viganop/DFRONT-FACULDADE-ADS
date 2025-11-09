@@ -1,0 +1,9 @@
+.welcome-container {
+  text-align: center;
+  padding-top: 4rem;
+}
+
+.welcome-container h1 {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+}
